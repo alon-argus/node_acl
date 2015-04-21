@@ -8,3 +8,6 @@ module.exports.__defineGetter__('memoryBackend', function(){
 module.exports.__defineGetter__('mongodbBackend', function(){
   return require('./lib/mongodb-backend.js');
 });
+module.exports.__defineGetter__('cassandraBackend', function(){
+  return require('./lib/cassandra-backend.js');
+});
